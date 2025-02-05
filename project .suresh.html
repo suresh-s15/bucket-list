@@ -1,0 +1,137 @@
+HTML:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+  
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:brown;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.bucket-list {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bucket-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bucket-list li {
+    margin-bottom: 20px;
+}
+
+.bucket-list img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bucket-list h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .bucket-list {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .bucket-list img {
+        height: 100px;
+    }
+    .bucket-list h3 {
+        font-size: 16px;
+    }
+}
+</style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <marquee behavior="scrool" direction="left" >
+    </marquee>
+    <header>
+        <h1><marquee behavior="scrool" direction="left" >
+       My Personal Bucket List</marquee></h1>
+    </header>
+    <main>
+        <section class="bucket-list">
+            <h2>Places  I love to Explore</h2>
+            <ul>
+                <li>
+                    <img src= "C:\Users\DELL\Downloads\pondicherry.jpg"width="300" height="200">
+                    <h3>Pondicherry</h3>
+                    <p>Experience a different vibe in pondicherry</p>
+                </li>
+                <li>
+                    <img src="C:\Users\DELL\Downloads\manali.jpg" width="300" height="200">
+                    <h3>Manali</h3>
+                    <p>Experince the snow and mountains</p>
+                </li>
+                <li>
+                    <img src="C:\Users\DELL\Downloads\kerala..jpg" width="300" height="200">
+                    <h3>Kerala</h3>
+                    <p>Experience boat Riding and Kerala foods</p>
+                </li>
+            </ul>
+        </section>
+        <section class="bucket-list">
+            <h2>Things to do</h2>
+            <ul>
+                <li>
+                    <h3>French streets, pondicherry</h3>
+                    <img src= "C:\Users\DELL\Downloads\french street.jpg"width="300" height="200">
+                    
+                    <p>Pondicherry is an different kind of place. I wanted to explore the french streets, beaches etc to get a vibe.</p>
+                </li>
+                <li>
+                    <h3>Trekking, manali</h3>
+                    <img src= "C:\Users\DELL\Downloads\trekking.jpg"width="300" height="200">
+                
+                    <p>Trekking is one of the beautiful adventure. Wanted to experince this kind of adventures.</p>
+                </li>
+                <li>
+                    <h3>Boat riding, Kerala</h3>
+                    <img src="C:\Users\DELL\Downloads\kerala boat riding.jpg"width="300" height="200">
+                    
+                    <p>One of the greenest states in india. love to explore in nature own state.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Bucket List</p>
+    </footer>
+</body>
+</html>
+
